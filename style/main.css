@@ -1,0 +1,49 @@
+:root {
+    --main-color:#C2CAE8;
+    background: rgb(167, 255, 254);
+    color: #223da2;
+    font: Roboto-Black;
+    letter-spacing: 2px;
+    line-height-step: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #223da2;
+}
+
+.header {
+    position: relative;
+    background-image: url("../duck_pattern.png");
+    height: 12rem;
+}
+
+.title {
+    position: absolut;
+    top: 50%;
+    right: 5px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10%;
+    font-size: 500%;
+    text-decoration: #223da2;
+}
+
+
+
+
+.progress {
+    position: relative;
+    width: 20rem;
+    height: 2rem;
+    background: #ffff;
+    border-radius: 20rem;
+    overflow: hidden;
+}
+
+.progress__fill {
+    position: absolute;
+    width: 10rem;
+    height: 2rem;
+    background: #C2CAE8;
+}

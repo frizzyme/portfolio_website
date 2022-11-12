@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a class="link" href="#">Conquack</a>
+            </li>
+            <li>
+                <a class="link" href="#">Me Myself and I</a>
+            </li>
+            <li>
+                <a class="link" href="#">Duck skills</a>
+            </li>
+            <li>
+                <a class="link" href="#">Tell me more...</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 class="title">Don Duck</h1>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Me Myself and I</h2>
+                <p>quack quack quack quack quack quack quack</p>
+                <p>quack quack quack quack quack quack quack</p>
+                <p>quack quack quack quack quack quack quack</p>
+                <p>quack quack quack quack quack quack quack</p>
+            </article>
+        </section>
+
+        <section class="section">
+            <h2>My Skills</h2>
+
+            <div>HTML✍️</div>
+            <div class="progress">
+                <div class= "progress__fill" id="html"></div>
+            </div>
+
+            <div>CSS 🎨</div>
+            <div class="progress">
+                <div class= "progress__fill" id="css"></div>
+            </div>
+
+            <div>Python 🐍</div>
+            <div class="progress">
+                <div class= "progress__fill" id="python"></div>
+            </div>
+
+            <div> Quack 🦆</div>
+            <div class="progress">
+                <div class= "progress__fill" id="quack"></div>
+            </div>
+
+        <hr>
+        </section>
+    
+        <form action="" method="post" novalidate>
+            <div>
+                <label for="first_name">First name</label>
+                <input type="text" placeholder="Enter your name" name="first_name">
+            </div>
+
+            <div>
+                <label for="last_name">Last name</label>
+                <input type="text" placeholder="Enter your surname" name="surname">
+            </div>
+
+            <div>
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" placeholder="text" name="phone" pattern="[0-9]+">
+            </div>
+
+            <div>
+                <label for="github">Github username</label>
+                <input type="username" placeholder="Your username" name="github_username">
+            </div>
+
+            <fieldset>
+
+            <legend>Where did you hear about me?</legend>
+                <label for="university">University</label>
+                <input type="radio" name="info" id="info" value="university">
+
+                <label for="linkedin">Linkedin</label>
+                <input type="radio" name="linkedin" id="info" value="linkedin">
+
+                <label for="keepcoding">Keepcoding</label>
+                <input type="radio" name="keepcoding" id="info" value="keepcoding">
+
+                <label for="inthepond">in the pond</label>
+                <input type="radio" name="inthepons" id="info" value="inthepond">
+
+            </fieldset>
+
+            <aside>
+                <label for="request">More Information</label>
+                <p>
+                    <textarea id="requests" name="requests" maxlength="180" placeholder="Tell me what would you like to know..."></textarea>
+                </p>
+            </aside>
+
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </main>
+
+
+    <footer>
+
+        <nav class="navbar">
+                <div>
+                    <a class="link" href="https://www.linkedin.com" target="_blank">Linkedin</a>
+                </div>
+                <div>
+                    <a class="link" href="https://www.github.com" target="_blank">Github</a>
+                </div>
+        </nav>
+
+    </footer>
+</body>
+</html>
