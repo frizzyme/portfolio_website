@@ -1,22 +1,32 @@
 :root {
-    --main-color:#C2CAE8;
-    background: rgb(167, 255, 254);
-    color: #223da2;
+    --main-color: #45F0DF;
+    background: #45F0DF;
+    color: white;
     font: Roboto-Black;
-    letter-spacing: 2px;
-    line-height-step: 1;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: monospace;
+    font-size: 150%;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-a {
-    text-decoration: none;
-    color: #223da2;
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
 }
 
-.header {
+header {
     position: relative;
-    background-image: url("../duck_pattern.png");
+    background-image: url("../rubber_duck_pattern.png");
     height: 12rem;
 }
+
 
 .title {
     position: absolut;
@@ -24,17 +34,25 @@ a {
     right: 5px;
     text-align: center;
     margin: auto;
-    padding-top: 10%;
-    font-size: 500%;
-    text-decoration: #223da2;
+    padding: 10%;
+    font-size: 380%;
+    color: #8380B6;
+    font-style: bold;
 }
 
 
+.sec {
+    margin: 10% 10% 10% 10%;
+    align-items: center;
+}
 
+.sec div {
+    margin-bottom: 5%;
+}
 
 .progress {
     position: relative;
-    width: 20rem;
+    width: 15rem;
     height: 2rem;
     background: #ffff;
     border-radius: 20rem;
@@ -43,7 +61,39 @@ a {
 
 .progress__fill {
     position: absolute;
-    width: 10rem;
+    width: 15rem;
     height: 2rem;
     background: #C2CAE8;
+    border-radius: 20rem;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #8380B6;
+}
+
+button {
+    text-align: center;
+    color: #8380B6;
+}
+
+button:hover {
+    background-color: #C2CAE8;
+}
+
+button:active {
+    background-color: #8380B6;
+    color: white;
+}
+
+h1, h2 {
+    font-style: bold;
+    font-size: 160%;
+    margin-bottom: 5%;
 }

@@ -28,12 +28,12 @@
         </ul>
     </nav>
 
-    <header class="header">
+    <header>
         <h1 class="title">Don Duck</h1>
     </header>
 
     <main>
-        <section>
+        <section class="sec">
             <article>
                 <h2>Me Myself and I</h2>
                 <p>quack quack quack quack quack quack quack</p>
@@ -43,84 +43,82 @@
             </article>
         </section>
 
-        <section class="section">
+        <section class="sec">
             <h2>My Skills</h2>
 
-            <div>HTML✍️</div>
+            <div>HTML</div>
             <div class="progress">
                 <div class= "progress__fill" id="html"></div>
             </div>
 
-            <div>CSS 🎨</div>
+            <div>CSS</div>
             <div class="progress">
                 <div class= "progress__fill" id="css"></div>
             </div>
 
-            <div>Python 🐍</div>
+            <div>Python</div>
             <div class="progress">
                 <div class= "progress__fill" id="python"></div>
             </div>
 
-            <div> Quack 🦆</div>
+            <div> Quack</div>
             <div class="progress">
                 <div class= "progress__fill" id="quack"></div>
             </div>
-
-        <hr>
         </section>
-    
-        <form action="" method="post" novalidate>
-            <div>
-                <label for="first_name">First name</label>
-                <input type="text" placeholder="Enter your name" name="first_name">
-            </div>
 
-            <div>
-                <label for="last_name">Last name</label>
-                <input type="text" placeholder="Enter your surname" name="surname">
-            </div>
 
-            <div>
-                <label for="phone">Phone number</label>
-                <input type="tel" id="phone" placeholder="text" name="phone" pattern="[0-9]+">
-            </div>
+        <section class="sec">
+            <form action="" method="post" novalidate>
+                <div>
+                    <label for="first_name">First name</label>
+                    <input type="text" placeholder="Enter your name" name="first_name">
+                </div>
 
-            <div>
-                <label for="github">Github username</label>
-                <input type="username" placeholder="Your username" name="github_username">
-            </div>
+                <div>
+                    <label for="last_name">Last name</label>
+                    <input type="text" placeholder="Enter your surname" name="surname">
+                </div>
 
-            <fieldset>
+                <div>
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" placeholder="text" name="phone" pattern="[0-9]+">
+                </div>
 
-            <legend>Where did you hear about me?</legend>
-                <label for="university">University</label>
-                <input type="radio" name="info" id="info" value="university">
+                <div>
+                    <label for="github">Github username</label>
+                    <input type="username" placeholder="Your username" name="github_username">
+                </div>
+            </section>
 
-                <label for="linkedin">Linkedin</label>
-                <input type="radio" name="linkedin" id="info" value="linkedin">
+            <fieldset class="sec">
+                <legend>Where did you hear about me?</legend>
+                    <label for="university">University</label>
+                    <input type="radio" name="info" id="info" value="university">
 
-                <label for="keepcoding">Keepcoding</label>
-                <input type="radio" name="keepcoding" id="info" value="keepcoding">
+                    <label for="linkedin">Linkedin</label>
+                    <input type="radio" name="linkedin" id="info" value="linkedin">
 
-                <label for="inthepond">in the pond</label>
-                <input type="radio" name="inthepons" id="info" value="inthepond">
+                    <label for="keepcoding">Keepcoding</label>
+                    <input type="radio" name="keepcoding" id="info" value="keepcoding">
+
+                    <label for="inthepond">in the pond</label>
+                    <input type="radio" name="inthepons" id="info" value="inthepond">
 
             </fieldset>
 
-            <aside>
+            <aside class="sec">
                 <label for="request">More Information</label>
                 <p>
                     <textarea id="requests" name="requests" maxlength="180" placeholder="Tell me what would you like to know..."></textarea>
                 </p>
+                <button class= sec type="submit" value="submit">Submit</button>
             </aside>
-
-            <button type="submit" value="submit">Submit</button>
         </form>
     </main>
 
 
     <footer>
-
         <nav class="navbar">
                 <div>
                     <a class="link" href="https://www.linkedin.com" target="_blank">Linkedin</a>
@@ -129,7 +127,6 @@
                     <a class="link" href="https://www.github.com" target="_blank">Github</a>
                 </div>
         </nav>
-
     </footer>
 </body>
 </html>
