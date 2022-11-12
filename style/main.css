@@ -39,12 +39,10 @@ header {
 }
 
 .title {
-    position: absolut;
-    top: 50%;
-    right: 5px;
+    position: relative;
     text-align: center;
     margin: auto;
-    padding: 10%;
+    padding: 3%;
     font-size: 280%;
     color: #8380B6;
     font-weight: bold;
@@ -78,7 +76,7 @@ header {
 
 .progress {
     position: relative;
-    width: 15rem;
+    width: 20rem;
     height: 2rem;
     background: #ffff;
     border-radius: 20rem;
@@ -87,7 +85,7 @@ header {
 
 .progress__fill {
     position: absolute;
-    width: 10rem;
+    width: 15rem;
     height: 2rem;
     background: #C2CAE8;
     border-radius: 20rem;
