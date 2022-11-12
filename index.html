@@ -14,16 +14,16 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a class="link" href="#">Conquack</a>
+                <a id="contact" class="link">Conquack</a>
             </li>
             <li>
-                <a class="link" href="#">Me Myself and I</a>
+                <a id="maintext"class="link">Me Myself and I</a>
             </li>
             <li>
-                <a class="link" href="#">Duck skills</a>
+                <a id="skills" class="link" href="#">Duck skills</a>
             </li>
             <li>
-                <a class="link" href="#">Tell me more...</a>
+                <a id="info" class="link" href="#">Tell me more...</a>
             </li>
         </ul>
     </nav>
@@ -35,15 +35,25 @@
     <main>
         <section class="sec">
             <article>
-                <h2>Me Myself and I</h2>
-                <p>quack quack quack quack quack quack quack</p>
-                <p>quack quack quack quack quack quack quack</p>
-                <p>quack quack quack quack quack quack quack</p>
-                <p>quack quack quack quack quack quack quack</p>
+                <h1>Me Myself and I</h2>
+                <a href ="#maintext"></a>
+                <div class="text"> 
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack 
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                    quack quack quack quack quack quack quack
+                </div>
             </article>
         </section>
 
         <section class="sec">
+            <a href="#skills"></a>
             <h2>My Skills</h2>
 
             <div>HTML</div>
@@ -66,59 +76,74 @@
                 <div class= "progress__fill" id="quack"></div>
             </div>
         </section>
-
-
+        <hr>
         <section class="sec">
-            <form action="" method="post" novalidate>
+            <form  action="#" method="post" novalidate>
                 <div>
                     <label for="first_name">First name</label>
-                    <input type="text" placeholder="Enter your name" name="first_name">
+                </div>
+                <div>
+                    <input type="text" class="placeholder_bar" placeholder="Enter your name" name="first_name">
                 </div>
 
                 <div>
                     <label for="last_name">Last name</label>
-                    <input type="text" placeholder="Enter your surname" name="surname">
+                </div>
+                <div>
+                    <input type="text" class="placeholder_bar" placeholder="Enter your surname" name="surname">
                 </div>
 
                 <div>
                     <label for="phone">Phone number</label>
-                    <input type="tel" id="phone" placeholder="text" name="phone" pattern="[0-9]+">
+                </div>
+                <div>
+                    <input type="tel" class="placeholder_bar" placeholder="Enter your phone number" name="phone" pattern="[0-9]+">
                 </div>
 
                 <div>
                     <label for="github">Github username</label>
-                    <input type="username" placeholder="Your username" name="github_username">
+                </div>
+                <div>
+                    <input type="username" class="placeholder_bar" placeholder="Your username" name="@username" pattern="^@[^\s]+">
                 </div>
             </section>
 
-            <fieldset class="sec">
-                <legend>Where did you hear about me?</legend>
+            <fieldset class="field">
+                <h2>Where did you hear about me?</h2>
+                    <div>
                     <label for="university">University</label>
-                    <input type="radio" name="info" id="info" value="university">
-
+                    <input required id ="university" type="radio" name="info" value="university">
+                    </div>
+                    <div>
                     <label for="linkedin">Linkedin</label>
-                    <input type="radio" name="linkedin" id="info" value="linkedin">
-
+                    <input required id ="linkedin" type="radio" name="info" value="linkedin">
+                    </div>
+                    <div>
                     <label for="keepcoding">Keepcoding</label>
-                    <input type="radio" name="keepcoding" id="info" value="keepcoding">
-
+                    <input required id ="keepcoding" type="radio" name="info" value="keepcoding">
+                    </div>
+                    <div>
                     <label for="inthepond">in the pond</label>
-                    <input type="radio" name="inthepons" id="info" value="inthepond">
-
+                    <input required id ="inthepond" type="radio"  name="info"value="inthepond">
+                    </div>
             </fieldset>
 
-            <aside class="sec">
+            <aside class ="sec">
+                <a href="#info"></a>
+                <h2>
                 <label for="request">More Information</label>
-                <p>
-                    <textarea id="requests" name="requests" maxlength="180" placeholder="Tell me what would you like to know..."></textarea>
+                </h2>
+
+                <textarea id="requests" name="requests" maxlength="180" placeholder="Tell me what would you like to know..."></textarea>
                 </p>
-                <button class= sec type="submit" value="submit">Submit</button>
+                <button href=# type="submit" value="submit">Submit</button>
             </aside>
         </form>
     </main>
 
 
     <footer>
+       <a href="#contact"></a> 
         <nav class="navbar">
                 <div>
                     <a class="link" href="https://www.linkedin.com" target="_blank">Linkedin</a>

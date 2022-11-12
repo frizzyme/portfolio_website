@@ -11,6 +11,9 @@
     margin-bottom: 10%;
 }
 
+
+/* navigation bar */
+
 .navbar {
     padding: 10px 20px;
     display: flex;
@@ -18,15 +21,22 @@
     align-items: center;
     margin-left: 8%;
     margin-right: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
+
+/*header area with picture and title*/
 
 header {
     position: relative;
+    display: flex;
     background-image: url("../rubber_duck_pattern.png");
-    height: 12rem;
+    height: 7.5rem;
 }
 
+
+.sec article {
+    text-align: center;
+}
 
 .title {
     position: absolut;
@@ -35,20 +45,36 @@ header {
     text-align: center;
     margin: auto;
     padding: 10%;
-    font-size: 380%;
+    font-size: 280%;
     color: #8380B6;
-    font-style: bold;
+    font-weight: bold;
 }
 
+/*section areas */
+
+.sec, .field {
+    margin: 10% 8% 10% 8%;
+}
 
 .sec {
-    margin: 10% 10% 10% 10%;
     align-items: center;
 }
 
-.sec div {
+.sec div, .field div {
     margin-bottom: 5%;
 }
+
+.sec h1, h2 {
+    font-style: bold;
+    font-size: 160%;
+    margin-bottom: 8%;
+}
+
+.text {
+    text-align: center;
+}
+
+/*myskills progress bar*/
 
 .progress {
     position: relative;
@@ -61,13 +87,73 @@ header {
 
 .progress__fill {
     position: absolute;
-    width: 15rem;
+    width: 10rem;
     height: 2rem;
     background: #C2CAE8;
     border-radius: 20rem;
     overflow: hidden;
 }
 
+
+/* form style */ 
+
+.placeholder_bar {
+    width: 15rem;
+    height: 2rem;
+    background: #ffff;
+    border-radius: 20rem;
+    overflow: hidden;
+    border-color: white;
+    border-style: none;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #8380B6;      
+}
+
+
+/* fill in text area */
+textarea {
+    width: 100%;
+    height: 160px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    border-color: #8380B6;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #8380B6;
+}
+
+
+
+/* submit button */
+
+button {
+    text-align: right;
+    color: #8380B6;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C2CAE8;
+}
+
+button:active {
+    background-color: #8380B6;
+    color: white;
+    size-adjust: 100%;
+}
+
+/*link style */
 
 a {
     text-decoration: none;
@@ -78,22 +164,14 @@ a:hover {
     color: #8380B6;
 }
 
-button {
-    text-align: center;
-    color: #8380B6;
-}
 
-button:hover {
+hr {
+    color:  #8380B6
+}
+/* footer style */
+
+footer {
     background-color: #C2CAE8;
-}
-
-button:active {
-    background-color: #8380B6;
-    color: white;
-}
-
-h1, h2 {
-    font-style: bold;
-    font-size: 160%;
-    margin-bottom: 5%;
+    height: 6rem; 
+    padding: 4rem 1rem 4rem 1rem;
 }
