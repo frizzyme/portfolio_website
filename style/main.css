@@ -3,7 +3,7 @@
     background: #45F0DF;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 120%;
+    font-size: 150%;
     align-items: center;
     /*margin: 2em -2em -2em -2em; */
 }
@@ -26,6 +26,7 @@
 }
 
 
+
 /* navigation bar */
 
 .navbar {
@@ -36,7 +37,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 8%;
-    margin: 1% 6% 6%;
 }
 
 /*header area with picture and title*/
