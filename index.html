@@ -14,19 +14,21 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a id="contact" class="link">Conquack</a>
+                <a href="#contact" class="link">Conquack</a>
             </li>
             <li>
-                <a id="maintext"class="link">Me Myself and I</a>
+                <a href="#maintext"class="link">Me Myself and I</a>
             </li>
             <li>
-                <a id="skills" class="link" href="#">Duck skills</a>
+                <a href="#skills" class="link" href="#">Duck skills</a>
             </li>
             <li>
-                <a id="info" class="link" href="#">Tell me more...</a>
+                <a href="#info" class="link" href="#">Tell me more...</a>
             </li>
         </ul>
     </nav>
+
+
 
     <header>
         <h1 class="title">Don Duck</h1>
@@ -35,8 +37,9 @@
     <main>
         <section class="sec">
             <article>
-                <h1>Me Myself and I</h2>
-                <a href ="#maintext"></a>
+                <a id="maintext">
+                    <h2>Me Myself and I</h2>
+                </a>
                 <div class="text"> 
                     quack quack quack quack quack quack quack
                     quack quack quack quack quack quack quack
@@ -53,60 +56,63 @@
         </section>
 
         <section class="sec">
-            <a href="#skills"></a>
-            <h2>My Skills</h2>
-
-            <div>HTML</div>
-            <div class="progress">
-                <div class= "progress__fill" id="html"></div>
-            </div>
-
-            <div>CSS</div>
-            <div class="progress">
-                <div class= "progress__fill" id="css"></div>
-            </div>
-
-            <div>Python</div>
-            <div class="progress">
-                <div class= "progress__fill" id="python"></div>
-            </div>
-
-            <div> Quack</div>
-            <div class="progress">
-                <div class= "progress__fill" id="quack"></div>
-            </div>
-        </section>
-        <hr>
-        <section class="sec">
-            <form  action="#" method="post" novalidate>
-                <div>
-                    <label for="first_name">First name</label>
+            <a id="skills"></a>
+            <h2 id="skill">My Skills</h2>
+            <section class="container-1">
+                <div>HTML</div>
+                <div class="progress">
+                    <div class= "progress__fill" id="html"></div>
                 </div>
-                <div>
-                    <input type="text" class="placeholder_bar" placeholder="Enter your name" name="first_name">
+           
+                <div>CSS</div>
+                <div class="progress">
+                    <div class= "progress__fill" id="css"></div>
                 </div>
 
-                <div>
-                    <label for="last_name">Last name</label>
-                </div>
-                <div>
-                    <input type="text" class="placeholder_bar" placeholder="Enter your surname" name="surname">
+                <div>Python</div>
+                <div class="progress">
+                    <div class= "progress__fill" id="python"></div>
                 </div>
 
-                <div>
-                    <label for="phone">Phone number</label>
-                </div>
-                <div>
-                    <input type="tel" class="placeholder_bar" placeholder="Enter your phone number" name="phone" pattern="[0-9]+">
-                </div>
-
-                <div>
-                    <label for="github">Github username</label>
-                </div>
-                <div>
-                    <input type="username" class="placeholder_bar" placeholder="Your username" name="@username" pattern="^@[^\s]+">
+                <div> Quack</div>
+                <div class="progress">
+                    <div class= "progress__fill" id="quack"></div>
                 </div>
             </section>
+        </section>
+        <hr>
+
+        <form  class="form" action="#" method="post" novalidate>
+            <section class="sec">
+                    <div>
+                        <label for="first_name">First name</label>
+                    </div>
+                    <div>
+                        <input type="text" class="placeholder_bar" placeholder="Enter your name" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name">Last name</label>
+                    </div>
+                    <div>
+                        <input type="text" class="placeholder_bar" placeholder="Enter your surname" name="surname">
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone number</label>
+                    </div>
+                    <div>
+                        <input type="tel" class="placeholder_bar" placeholder="Enter your phone number" name="phone" pattern="[0-9]+">
+                    </div>
+
+                    <div>
+                        <label for="github">Github username</label>
+                    </div>
+                    <div>
+                        <input type="username" class="placeholder_bar" placeholder="Your username" name="@username" pattern="^@[^\s]+">
+                    </div>
+            </section>
+
 
             <fieldset class="field">
                 <h2>Where did you hear about me?</h2>
@@ -142,16 +148,17 @@
     </main>
 
 
-    <footer>
-       <a href="#contact"></a> 
-        <nav class="footer">
-                <div>
-                    <a class="link" href="https://www.linkedin.com" target="_blank">Linkedin</a>
-                </div>
-                <div>
-                    <a class="link" href="https://www.github.com" target="_blank">Github</a>
-                </div>
-        </nav>
-    </footer>
+        <footer>
+        <a id="contact"></a> 
+            <nav class="footer">
+                    <div>
+                        <a class="link" href="https://www.linkedin.com" target="_blank">Linkedin</a>
+                    </div>
+                    <div>
+                        <a class="link" href="https://www.github.com" target="_blank">Github</a>
+                    </div>
+            </nav>
+        </footer>
+    </section> 
 </body>
 </html>
