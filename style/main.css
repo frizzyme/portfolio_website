@@ -19,6 +19,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin-left: 8%;
     margin-bottom: 8%;
 }
 
@@ -74,7 +75,7 @@ header {
 
 .progress {
     position: relative;
-    width: 20rem;
+    width: 15rem;
     height: 2rem;
     background: #ffff;
     border-radius: 20rem;
@@ -83,13 +84,12 @@ header {
 
 .progress__fill {
     position: absolute;
-    width: 15rem;
+    width: 13rem;
     height: 2rem;
     background: #C2CAE8;
     border-radius: 20rem;
     overflow: hidden;
 }
-
 
 /* form style */ 
 
@@ -164,6 +164,7 @@ a:hover {
 hr {
     color:  #8380B6
 }
+/* footer style */
 
 /* footer style */
 
